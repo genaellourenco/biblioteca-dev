@@ -1,0 +1,8 @@
+JAVASCRIPT - COMANDOS
+--------------------------------------------
+
+- window.alert('Mostra uma msgm na tela!') 
+- window.confirm('opção ok ou cancel') 
+- window.prompt('Qual é seu nome?')
+- document.write(Escreve o texto no body)
+-

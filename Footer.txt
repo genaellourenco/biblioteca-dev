@@ -1,0 +1,10 @@
+Footer´S (Modelos)
+-----------------------------------------------------------
+
+    <footer>
+        <p>
+            Site criado por
+            <a href="https://www.instagram.com/genael.filho/" target="_blank"><strong>Genael Lourenço Filho</strong></a> para o 
+            <a class="externo" href="https://github.com/genaellourenco" target="_blank"><strong>CursoemVideo</strong></a>.
+        </p>
+    </footer>

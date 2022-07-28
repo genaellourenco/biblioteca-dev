@@ -1,0 +1,15 @@
+VIDEOS / hospedado localmente
+==============================
+
+1ºOPÇÃO
+
+<video src="media/Moto.mp4" width="500px" controls></video>
+
+2ºOPÇÃO
+
+<video controls width="500" poster="imagens/moto.png">
+    <source src="media/Moto.mp4" type="video/mp4">
+    <source src="media/Moto.webm" type="video/webm">
+    <source src="media/Moto.mkv" type="video/mkv">
+     <p>Seu navegador não tem copatibilidade com reprodução de vídeos. </p>
+</video>

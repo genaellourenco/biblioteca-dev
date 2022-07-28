@@ -1,0 +1,9 @@
+Gradiente Degradê
+======================
+
+body{
+    
+background-image: linear-gradient(to bottom,#14DE2A,#51F523,#86DE14, #E7FA17);background-attachment: fixed;
+
+     }
+    

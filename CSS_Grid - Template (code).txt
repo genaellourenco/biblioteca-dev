@@ -1,0 +1,76 @@
+CSS GRID - TEMPLATE
+===============================
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #7159c1;
+      }
+
+      .container {
+        display: grid;
+
+        /*  usamos o "grid-template" como atalho para
+            grid-template-rows/grid-template-columns */
+
+        grid-template: 20vh 70vh 10vh/3fr 1fr;
+
+        /*
+          grid-template-rows: 20vh 70vh 10vh;
+          grid-template-columns: 3fr 1fr;
+        */
+
+        /*  usamos grid-gap como um atalho para: 
+            grid-row-gap / grid-column-gap */
+
+        grid-gap: 20px;
+
+        /* 
+          grid-row-gap: 20px;
+          grid-column-gap: 20px;
+        */
+
+        grid-template-areas: "h h" "m a" "f f"
+      }
+
+      header {
+            background-color:brown;
+            grid-area: h;
+        }
+
+      main {
+            background-color:black;
+            grid-area: m;
+        }
+
+        aside {
+            background-color:rgb(6, 80, 91);
+            grid-area: a;
+        }
+
+        footer {
+            background-color:rgb(27, 5, 49);
+            grid-area: f;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header></header>
+      <main></main>
+      <aside></aside>
+      <footer></footer>
+    </div>
+  </body>
+</html>

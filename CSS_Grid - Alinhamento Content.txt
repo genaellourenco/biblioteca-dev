@@ -1,0 +1,18 @@
+CSS GRID - ALINHAMENTO "CONTENT"
+======================
+
+Display: Grid;
+       
+    Justify-content:
+    Align-content: 
+    ------------------------------------------------
+    Valores:
+
+    star = inicio
+    end = fim
+    center = centro
+    stretch = 
+    space-between = espaço entre colunas
+    space-arond = espaço ao redor da coluna
+    space-evenly = espaço iquais entre colunas
+     

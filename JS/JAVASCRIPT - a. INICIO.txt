@@ -1,0 +1,92 @@
+
+JAVASCRIPT - INICIO
+-------------------------------------------------
+
+Fazer comentários:
+
+// uma unica linha
+
+/**/ mas de uma linha de código
+===============
+typeof = mostra o tipo do comando0
+===============
+O sinal de "=" se lê como "recebe"
+===============
+Limpar a tela do terminal :
+
+Ctrl + L
+===============
+Regras de Identificadores 
+
+-Podem começar com (letra,$ ou _).
+-Não podem começar com (números).
+-É possível usar (acentos) e (símbolos).
+-Não podem conter (espaços).
+-Não podem ser palavras (reservadas ex:var).
+===============
+Dicas de nome de identificadores
+
+-(Maiúsculas e minúsculas) fazem diferença.
+-Tente escolher (nomes coerentes)para as variáveis.
+===============
+Data Types-Primitive
+
+Primordiais
+------------
+
+-Number 
+	Infinity
+	NaN
+-String 
+-Boolean 
+
+Outros
+------------
+
+-null
+-underfined
+-object
+	Array
+-function
+===============
+-Converter de (String > Number)
+
+Number.parseInt 
+(número inteiros, são numeros não fracionados ex: 2,10,17...etc )
+
+Number.parseFloat 
+(número real, são numeros fracionados ex: 2.5,7.5...etc)
+
+Comando:
+
+Number.parseInt(window.prompt('Digite um número:'))
+
+Number.parseFloat(window.prompt('Digite um número:'))
+
+===============
+
+-Converter de (Number > String)
+
+
+Strind(n)
+
+n.toString()
+
+ex:
+
+var s = (n1 + n2)
+    window.alert('A soma dos números é: ' + String(s))
+
+	ou
+
+var s = (n1 + n2)
+    window.alert('A soma dos números é: ' + s.toString())
+================
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 20px;
+    box-shadow: 0 0 15px rgb(200,200,200);
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h1{
+    font-family: Arial;
+    margin-top: 40px;
+    border-bottom: 5px solid gold;
+    display: inline-block;
+    text-transform: uppercase;
+    color: rgb(80,80,80)
+}

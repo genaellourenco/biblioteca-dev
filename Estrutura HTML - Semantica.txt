@@ -1,0 +1,33 @@
+ESTRUTURA HTML
+=========================
+
+<body>
+  <header>(cabeçalho)
+     <h1>Título</h1>
+     <p>Parágrafo</p>
+  </header>
+  <nav>
+     <a href="#">Home</a>
+     <a href="#">Notícias</a>
+     <a href="#">Curiosidades</a>
+     <a href="#">Fale Conosco</a>
+  </nav>
+   <main>
+     <article>
+         
+	O Elemento HTML Article (<article>) representa uma composição independente em um documento, página, aplicação, ou site, ou que é destinado a ser distribuido de forma independente ou reutilizável, por exemplo, em sindicação. Este poderia ser o post de um fórum, um artigo de revista ou jornal, um post de um blog, um comentário enviado por um usuário, um gadget ou widget interativos, ou qualquer outra forma de conteúdo independente.
+	
+	<aside>
+
+	O elemento HTML <aside> representa uma seção de uma página que consiste de conteúdo que é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo. Essas seções são, muitas vezes, representadas como barras laterais.
+
+	</aside>
+     </article>
+    </main>
+   <footer>
+
+Site criado por Gustavo Guanabara para o CursoemVideo.
+
+  </footer>
+</body>
+																	

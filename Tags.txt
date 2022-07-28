@@ -1,0 +1,21 @@
+TAGS
+------------
+
+<strong> Negrito
+<em> italico
+<ins> sublinhado
+<del> testo riscado
+<sub> subescrito
+<sup> sobrescrito
+<mark> marca texto
+<q> citação no meio de um parágrafo
+<blockquote> citação em bloco (também pode colocar um link para o
+texto original, usando o parâmetro <cite> dentro da tag.)
+<abbr> abreviações
+<picture> imagens dinâmicas
+
++++++++++++++++++++++++
+
+Caracteres
+
+- &lt; p &gt; = < p >

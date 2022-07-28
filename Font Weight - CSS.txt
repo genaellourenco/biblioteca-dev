@@ -1,0 +1,10 @@
+Font Weight - CSS
+=================
+
+font-weight: normal; (100)
+
+font-weight: lighter; (400)
+
+font-weight: bold; (700)
+
+font-weight: bolder; (900)

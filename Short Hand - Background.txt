@@ -1,0 +1,26 @@
+SHORT HAND - BACKGROUND
+___________________________________________________________
+
+/*
+
+Short - Hand
+
+color > image > position > repeat > (size) > attachment
+
+*/
+
+body{
+            
+            /*
+            height: 100vh;
+            background-color: black;
+            background-image: url(imagem/wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            */
+
+            background: black url(imagem/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+        }

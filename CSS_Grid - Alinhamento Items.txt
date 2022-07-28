@@ -1,0 +1,14 @@
+CSS GRID - ALINHAMENTO "ITEMS"
+======================
+
+Display: Grid;
+       
+    Justify-items: (alinhamento horizontal)
+    Align-items: (alinhamento vertical)
+    ------------------------------------------------
+    Valores:
+
+    star = inicio
+    end = fim
+    center = centro
+    stretch =    

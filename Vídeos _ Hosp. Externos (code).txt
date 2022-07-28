@@ -1,0 +1,10 @@
+VÍDEOS / Hospedado Externos
+==============================
+
+Vá em um site de videos como o "youtube" por exemplo, e escolha a opção de "compartilhar" o vídeo, depois escolha a apção de "incorporar vídeo" copie e cole o código no seu HTML.
+
+Exemplo:
+
+<h1> Inserindo vídeos do youtube </h1>
+
+<iframe width="560" height="360" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
