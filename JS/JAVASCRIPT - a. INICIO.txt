@@ -2,7 +2,13 @@
 JAVASCRIPT - INICIO
 -------------------------------------------------
 
+linkar o js no html!! Não se esqueça!!
+
+==================================
+
 Fazer comentários:
+
+Atalho: CTRL + , 
 
 // uma unica linha
 
@@ -73,6 +79,22 @@ Strind(n)
 n.toString()
 
 ex:
+
+> var s= 5
+> s
+5
+> var n1 = 10
+
+> var n2 = 15
+
+> var s = n1 + n2
+
+> s
+25
+>
+
+
+var s = 5
 
 var s = (n1 + n2)
     window.alert('A soma dos números é: ' + String(s))

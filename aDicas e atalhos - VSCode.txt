@@ -1,18 +1,21 @@
 DICAS E ATALHOS P/ VS CODE
-=================================
+------------------------------------------------------
 
+======================================================
+-- CTRL + ; = Comenta o código no CSS3
+======================================================
 -- CTRL + D = SELECIONA ITENS ABAIXO (CTRL + F2 = SELECIONA TODOS OS ELEMENTOS IGUAIS)
-
+======================================================
 -- CTRL+SHIFT+L = FAZ UMA SELEÇÃO DE VARIOS ELEMENTOS COM O MESMO NOME
-
+======================================================
 -- ALT+SHIFT + SETA PARA BAIXO = CLONA O CODIGO
-
+======================================================
 -- SHIFT + ALT + F = ORGANIZAR O CODIGO INDENTAR
-
+======================================================
 -- ENVELOPAR:
 
 CTRL+SHIFT+P abre o Emmet: Wrap with Abbreviation . Adicione o atalho que você deseja, e depois ENTER para confirmar. Agora basta selecionar um pedaço de código HTML e usar o atalho, CTRL+SHIFT+P + ENTER + A TAG + ENTER.
-
+======================================================
 -- LINK´S INTERNOS
 
 EX: VOLTAR PARA PASTA, IR PARA PASTA

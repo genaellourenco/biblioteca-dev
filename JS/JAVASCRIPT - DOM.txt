@@ -1,0 +1,143 @@
+             
+                      DOM 
+________________________________________________
+
+------------ ÁRVORE DOM: -----------------------
+
+
+                   WINDOW
+
+             /       |      \
+      LOCATION   DOCUMENT   HISTORY
+
+                    |
+                  HTML
+
+                 /       \
+              HEAD      BODY
+
+           /     |       \   \  \  \
+         META  TITLE      \   \  \  \
+                          H1  P  P  DIV
+                          
+                              |
+                           STRONG
+
+--------- SELECIONANDO DOM: --------------------
+
+> Por Marca
+> Por ID
+> Por Nome
+> Por Classe
+> Por Seletor
+
+------- Por Marca---------
+
+comando:
+
+ getElementsByTagName()[]
+
+exemplo:
+
+  <script>
+     var corpo = window.document.body
+     var p1 = window.document.getElementsByTagName('p')[0]
+     p1.style.color = 'red'
+     corpo.style.background = 'black'
+  </script>
+
+------- Por ID------------
+
+comando:
+
+ getElementById()
+
+exemplo:
+
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p >Aprendendo a usar o <strong>DOM</strong> em Javascript.</p>
+    <div id="mydiv">Clique em mim!!</div>
+    <br>
+    <script>
+
+        var div = document.getElementById ('mydiv')
+        div.style.color = 'black'
+        div.style.background = 'white'
+        div.innerText = 'Estou aguardando...'
+
+    </script>
+</body>
+
+------- Por Nome----------
+
+comando:
+
+ getElementsByName()[]
+
+exemplo:
+
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p >Aprendendo a usar o <strong>DOM</strong> em Javascript.</p>
+    <div name="mydiv">Clique em mim!!</div>
+    <br>
+        <script>
+    
+            var div = document.getElementsByName('mydiv')[0]
+            div.style.color = 'black'
+            div.style.background = 'white'
+            div.innerText = 'Estou aguardando...'
+    
+        </script>
+</body>
+
+------- Por Classe--------
+
+comando:
+
+ getElementsByClassName()[]
+
+exemplo:
+
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+        <p>Aqui vai o resultado</p>
+        <p >Aprendendo a usar o <strong>DOM</strong> em Javascript.</p>
+        <div class="mydiv">Clique em mim!!</div>
+        <br>
+    <script>
+ 
+            var div = document.getElementsByClassName('mydiv')[0]
+            div.style.color = 'black'
+            div.style.background = 'white'
+            div.innerText = 'Estou aguardando...'
+    
+    </script>
+</body>
+
+------- Por Seletor-------
+
+comando:
+
+ querySelector()
+
+exemplo:
+
+<body>
+	<h1>Iniciando estudos com DOM</h1>
+        <p>Aqui vai o resultado</p>
+        <p >Aprendendo a usar o <strong>DOM</strong> em Javascript.</p>
+        <div id="mydiv">Clique em mim!!</div>
+        <br>
+          <script>
+    
+            var div = document.querySelector('div#mydiv')
+            div.style.color = 'black'
+            div.style.background = 'white'
+            div.innerText = 'Estou aguardando...'
+    
+          </script> 
+</body>

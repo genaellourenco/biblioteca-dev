@@ -1,0 +1,13 @@
+  SHADOW / SOMBRAS
+----------------------------------------------------------
+
+Funcionamento:
+
+            dir/esq  cima/baixo   embaçamento         cor
+
+box-shadow:   0px       07px         07px     rgba(0, 0, 0, 0.192);
+
+
+box-shadow: 0px 07px 07px rgba(0, 0, 0, 0.192);
+
+text-shadow: 0px 07px 07px rgba(0, 0, 0, 0.192);
