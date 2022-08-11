@@ -1,0 +1,13 @@
+           
+           FLEX - FLOW
+______________________________________________________________
+
+As duas propriedades "FLEX-DIRECTION" e "FLEX-WRAP" são usadas com tanta frequência juntas que a propriedade abreviada "FLEX-FLOW" foi criada para combiná-las. 
+
+Esta propriedade abreviada aceita o valor das duas propriedades separadas por um espaço.
+
+- flex-flow:  column                 wrap
+              column-reverse         nowrap
+              row                    wrap-reverse
+              row-reverse
+              
