@@ -2,11 +2,10 @@
 -------------------------------------------------------------
                         
 - Op. Aritméticos               
-- Atribuição                    
-- Relacionais                   
-- lógicos                       
-- Ternários
-
+- Op. Atribuição                    
+- Op. Relacionais                   
+- Op. lógicos                       
+- Op. Ternários
 
 ================- Op. Aritméticos -==========================
 
