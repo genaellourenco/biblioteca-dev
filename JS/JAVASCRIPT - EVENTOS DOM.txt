@@ -1,0 +1,48 @@
+
+              EVENTOS DOM
+____________________________________________
+
+Alguns Eventos:
+
+-mouseenter
+-mousemove
+-mousedown
+-mouseup
+-click
+-mouseout
+
+--------------------------------------------
+
+Funções
+
+function ação( param - parametros) {
+
+bloco
+
+}
+
+--------------------------------------------
+
+Exemplo:
+
+  <script>
+
+        var a = window.document.getElementById('area')
+        a.addEventListener('click',clicar)
+        a.addEventListener('mouseenter',entrar)
+        a.addEventListener('mouseout',sair)
+
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.backgroundColor = 'green'
+        }
+        function entrar() {
+            a.innerText = 'Tá Maluko!!'
+            a.style.backgroundColor = 'blue'
+        }
+        function sair() {
+            a.innerText = 'Tá Piruleipe!!'
+            a.style.backgroundColor = 'red'
+        }
+
+    </script>
