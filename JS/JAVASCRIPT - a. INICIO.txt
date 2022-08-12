@@ -74,7 +74,7 @@ Number.parseFloat(window.prompt('Digite um número:'))
 -Converter de (Number > String)
 
 
-Strind(n)
+String(n)
 
 n.toString()
 
