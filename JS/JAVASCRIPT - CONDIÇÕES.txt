@@ -19,3 +19,15 @@ _____________________________________________
 
 if(condição) { true } else { false }
 
+_____________________________________________
+
+Tipos de Condição!!
+
+- Condição Simples:
+
+if(condição) {true}
+
+- Condição Composta:
+
+if(condição)
+
